@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>M:b Twitter</title>
+    <link rel="stylesheet" type="text/css" href="/JH-project/main.css">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- BANNER PART OF WEBSITE / SECTION A -->
+    <header>
+        <h1><img src="https://microbit.org/images/microbit-logo-stacked.png" align="left" id="mb-img" />Welcome micro:bit User</h1>
+        <a id="account" href="/JH-project/login"></a>
+    </header>
+    <!-- END OF SECTION A -->
+
+    <section>
+        <!-- NAVIGATION BAR / SECTION B-->
+        <nav>
+
+        </nav>
+        <!-- END OF SECTION B -->
+
+        <!-- BODY OF SELECTED PAGE / SECTION C -->
+        <article>
+            <p>
+                Enter the twitter handles you wish to subscribe to without the leading @.
+                <br>
+                Click the red cross next to a twitter handle to unsubscribe.
+                <br>
+                This list doesn't edit who you follow on twitter, just the messages you will receive on the micro:bit.
+            </p>
+            <div id="message" style="color:darkred"></div>
+            <form id="subscribe">
+                <input type="text" id="twitter-handle"></input>
+                <input type="submit" value="Subscribe"></input>
+            </form>
+            <table id="twitter-subscriptions"></table>
+
+            <br>
+
+            <div id="rectangle" style="display:flex"></div>
+        </article>
+        <!-- END OF SECTION C -->
+
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <p>Group B1 - Oli, Peter, Dan, Nikola, Joanna</p>
+    </footer>
+
+    <script src="script.js" type="text/javascript"></script>
+    <script src="/JH-project/js/account.js" type="text/javascript"></script>
+    <script src="../js/smoll_bigg_rectangle.js" type="text/javascript"></script>
+</body>
+
+</html>

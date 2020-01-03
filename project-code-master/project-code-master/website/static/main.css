@@ -1,0 +1,231 @@
+/*
+    Colour scheme: black (#191919), blue (#63CDE2), grey (#8B8E8A), gold (#E1A030), off-white (#E9EAE9)
+    Chosen because of the micro:bit's colours
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: #191919;
+}
+
+body {
+    font-family: "comic sans", "times new roman";
+}
+
+/*
+    For the top of the web page
+ */
+h1 {
+    color: #63CDE2;
+    font-family: "roboto";
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 1%;
+    text-align: center;
+    padding-right: 5%;
+}
+
+/*
+    For the title of each web page
+ */
+h2 {
+    color: #63CDE2;
+    font-family: "roboto";
+    font-size: large;
+    font-weight: bold;
+}
+
+p {
+    margin: 1%;
+}
+
+header {
+    background-color: #8B8E8A;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+nav {
+    background-color: #8B8E8A;
+    float: left;
+    margin-top: 1%;
+    width: 20%;
+    padding-top: 10px;
+    border-radius: 15px;
+}
+
+#mb-img {
+    width:7%;
+    border-radius: 0px;
+}
+img {
+    border-radius: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+article {
+    background-color: #8B8E8A;
+    float: left;
+    margin: 1%;
+    padding: 10px;
+    width: 70%;
+    border-radius: 15px;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*
+    Background for text under the title of the web page
+ */
+.text-body {
+    background: linen;
+}
+
+/*
+    For navigation bar: the page the user is on will be made obvious.
+ */
+.clicked {
+    color: lightgrey;
+    font-style: italic;
+}
+
+.module {
+    background: dimgrey;
+    margin: 1%;
+}
+
+#signout {
+    text-align: right;
+}
+
+footer {
+    position: fixed;
+    bottom: 1%;
+    left: 50%;
+    margin-right: -50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: dodgerblue;
+}
+
+a:visited {
+    color: #b82e5c;
+}
+
+a:hover {
+    color: purple;
+}
+
+a:active {
+    color: yellow;
+}
+
+#log {
+    border: 1px solid black;
+}
+#log td {
+    border: 1px solid black;
+}
+#log .log-message {
+    width:75%;
+}
+
+.autocompleteoption {
+    position: absolute;
+    background-color: LightGray;
+    color: black;
+    border-radius: 5px;
+    padding: 7px;
+    z-index: 1;
+}
+
+.autocompleteoption:empty {
+    display: none;
+}
+
+.autocompleteoption *{
+    width: 100%;
+    display: block;
+}
+.autocompleteoption > * > span:hover {
+    background-color: white;
+}
+
+.message {
+    color: white;
+}
+
+/*
+    Make the components of the bottom of a micro:bit
+*/
+
+.smol_rectangle {
+    height: 70px;
+    flex: 30;
+    background: goldenrod;
+    margin-top: 50px;
+}
+
+.bigg_rectangle {
+    height: 120px;
+    flex: 60;
+    background: goldenrod;
+    position: relative;
+}
+
+.bigg_rectangle p {
+    position: absolute;
+    bottom: 20%;
+    left: 45%;
+}
+
+.hole {
+    border: 1px;
+    height: 80px;
+    flex: 80;
+    background: goldenrod;
+    border-radius: 50%;
+}
+
+.thicc_separator {
+    height: 100px;
+    flex: 4;
+    background: #8B8E8A;
+}
+
+.thinn_separator {
+    height: 100;
+    flex: 2;
+    background: #8B8E8A;
+}
+
+/*
+    Aligning columns of a div table properly
+*/
+
+.cellClass {
+    vertical-align:top;
+}
+
+/*
+    Aligning rectangle proper
+*/
+
+.rectangleClass {
+    vertical-align:bottom;
+}

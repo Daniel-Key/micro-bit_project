@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>m:b Weather</title>
+    <link rel="stylesheet" type="text/css" href="../main.css">
+</head>
+
+<body>
+
+    <!-- BANNER PART OF WEBSITE / SECTION A -->
+    <header>
+        <h1><img src="https://microbit.org/images/microbit-logo-stacked.png" align="left" id="mb-img" />Welcome micro:bit User</h1>
+        <a id="account" href="/JH-project/login"></a>
+    </header>
+    <!-- END OF SECTION A -->
+
+    <section>
+        <!-- NAVIGATION BAR / SECTION B-->
+        <nav>
+        </nav>
+        <!-- END OF SECTION B -->
+
+        <!-- BODY OF SELECTED PAGE / SECTION C -->
+        <article>
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+            <div class="autocomplete" style="width:400px;">
+                <p>Use the search bar to search for a city/place, then click an item from the dropdown list to select it&period;</p>
+                <input id="cityInput" class="autocomplete" type="text" placeholder="City/place">
+                <div id="cityInputDiv" class="autocomplete autocompleteoption"></div>
+                <div id="message" class="message"></div>
+            </div>
+
+            <br>
+
+            <div id="rectangle" style="display:flex"></div>
+        </article>
+        <!-- END OF SECTION C -->
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Group B1 - Oli, Peter, Dan, Nikola, Joanna</p>
+    </footer>
+
+    <script src="script.js" type="text/javascript"></script>
+    <script src="/JH-project/js/account.js" type="text/javascript"></script>
+    <script src="../js/smoll_bigg_rectangle.js" type="text/javascript"></script>
+
+</body>
+</html>

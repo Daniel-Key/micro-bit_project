@@ -1,0 +1,12 @@
+{
+  "name": "jh-project-b1",
+  "version": "0.0.0",
+  "bin": "./source",
+  "private": true,
+  "description": "using a microbit as a minimal internet device",
+  "author": "group-b1",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "microbit": "lancaster-university/microbit"
+  }
+}

@@ -1,0 +1,7 @@
+websockets==7.0
+sklearn==0.0
+gensim==3.7.2
+scikit-learn==0.20.3
+nltk==3.4
+numpy==1.16.2
+pyserial==3.4
